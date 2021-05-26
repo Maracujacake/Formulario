@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 2, 2);
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgb(212, 101, 101);;
+    transition: 0.5s;
+    box-shadow: 5px 10px 8px rgb(168, 89, 89);
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    text-shadow: 3px 3px rgb(168, 89, 89);
+}
+
+input[type=text],input[type=email],input[type=date]{
+   margin: 20px auto;
+   text-align: center;
+   padding: 10px;
+   border-radius: 15px;
+   border: 2px solid rgb(196, 23, 23);
+   background: rgba(236, 181, 181, 0.945);
+   display: block;
+   outline: none;
+   transition: 0.5s;
+   color: black;
+}
+
+input[type=submit]{
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(196, 23, 23);
+    background: rgba(236, 181, 181, 0.945);
+    display: block;
+    transition: 0.5s;
+    color: black;
+}
+
+
+
+input[type=submit]:hover{
+    background-color:rgb(34, 2, 2);
+    color:white;
+    padding: 10px 70px;
+    border: 2px solid rgba(236, 181, 181, 0.945);
+    cursor: pointer;
+}
+
+input[type=text]:focus{
+    background-color:rgb(34, 2, 2);
+    color:white;
+    padding:10px 25px;
+    border: 2px solid rgba(236, 181, 181, 0.945);
+}
+
+input[type=email]:focus{
+    background-color:rgb(34, 2, 2);
+    color:white;
+    padding:10px 25px;
+    border: 2px solid rgba(236, 181, 181, 0.945);
+}
+
+
